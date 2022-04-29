@@ -16,7 +16,7 @@ prefix = "osdu-self"
 resource_tags = {
   environment = "Self Managed OSDU"
   contact = "mpcheema"
-  repo = "https://github.dev/mpcheema/self-managed-osdu"
+  repo = "https://github.com/mpcheema/self-managed-osdu"
 }
 
 /* The below items are not typically modified */
