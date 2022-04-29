@@ -13,7 +13,7 @@
 //  limitations under the License.
 
 
-tenant_name = "<your_tenant>"
+tenant_name = "Halliburton"
 
 prefix = "osdu-self"
 
