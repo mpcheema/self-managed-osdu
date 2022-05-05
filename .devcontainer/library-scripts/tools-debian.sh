@@ -9,7 +9,7 @@
 #
 # Syntax: ./k8s-tools-debian.sh
 
-HELM_VERSION=${1:-"v3.2.2"}
+HELM_VERSION=${1:-"v3.8.2"}
 KUBESEAL_VERSION=${1:-"v0.16.0"}
 
 set -e
