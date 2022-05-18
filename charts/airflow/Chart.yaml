@@ -8,8 +8,8 @@ keywords:
 - workflow
 - dag
 maintainers:
-  - name: danielscholl
-    url: https://github.com/danielscholl
+  - name: mpcheema
+    url: https://github.com/mpcheema
 name: airflow
 sources:
 - https://airflow.apache.org/
