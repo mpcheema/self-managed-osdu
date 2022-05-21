@@ -1933,6 +1933,7 @@ jobs:
       - name: GitOps CheckIn
         uses: EndBug/add-and-commit@v7
         with:
+          GITHUB_TOKEN: ${{ secrets.GH_REPO_TOKEN }}
           message: 'Initialize Software Install'
           add: '.'
 
