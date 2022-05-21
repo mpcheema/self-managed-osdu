@@ -1,0 +1,18 @@
+---
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: airflow-base
+  namespace: airflow
+spec:
+  values:
+    azure:
+      tenant: b7be7686-6f97-4db7-9081-a23cf09a96b5
+      subscription: f726e0f9-96bc-4f6d-bb3d-ccf0ae64b662
+      resourcegroup: osdu-self-cplfiji-d7f5-rg
+      identity: osdu-self-cplfiji-d7f5-osdu-identity
+      identity_id: 45c19728-e467-482b-a991-ea83c6b2b6f8
+      keyvault: osdu-self-cplfij-d7f5-kv
+      appid: e023491f-8d61-4f69-92d1-c01e3d5fb8a1
+    image:
+      repository: osduselfcplfijd7f5cr.azurecr.io
