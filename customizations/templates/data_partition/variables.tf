@@ -166,7 +166,7 @@ variable "sb_topics" {
 variable "elasticsearch_endpoint" {
   type        = string
   description = "endpoint for elasticsearch cluster"
-  default     = "https://osdu-elastic-haldu-dev.es.southcentralus.azure.elastic-cloud.com:9243"
+  default     = "https://6b466700bac34ad5821392421d6dcc97.southcentralus.azure.elastic-cloud.com:9243"
 }
 
 variable "elasticsearch_username" {
