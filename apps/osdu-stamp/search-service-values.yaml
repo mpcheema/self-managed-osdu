@@ -7,10 +7,10 @@ metadata:
 spec:
   values:
     ingress:
-      dns: osdu-self-dplfiji-4srn-gw.southcentralus.cloudapp.azure.com
+      dns: osdu-self-dplchfih-pljm-gw.southcentralus.cloudapp.azure.com
     configuration:
     - service: search
-      repository: osduselfcplfijd7f5cr.azurecr.io/search
+      repository: osduselfcplchf72s0cr.azurecr.io/search
       path: /api/search/v2/*
       probe:
         path: /api/search/v2/swagger-ui.html
@@ -42,7 +42,7 @@ spec:
       - name: ACCEPT_HTTP
         value: "true"
       - name: APPLICATIONINSIGHTS_CONNECTION_STRING
-        value: "InstrumentationKey=380199a2-58d5-42c5-bdce-fc00b6873c4d"
+        value: "InstrumentationKey=8ae4e185-7dcc-4fac-b20c-eb14157588ea"
       - name: cosmosdb_database
         value: "osdu-db"
       - name: entitlements_service_endpoint
