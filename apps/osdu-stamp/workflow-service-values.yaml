@@ -7,10 +7,10 @@ metadata:
 spec:
   values:
     ingress:
-      dns: osdu-self-dplchfih-pljm-gw.southcentralus.cloudapp.azure.com
+      dns: osdu-self-dpldcaj-zco4-gw.southcentralus.cloudapp.azure.com
     configuration:
     - service: workflow
-      repository: osduselfcplchf72s0cr.azurecr.io/workflow
+      repository: osduselfcpldcaipascr.azurecr.io/workflow
       path: /api/workflow/*
       probe:
         path: /api/workflow/swagger-ui.html

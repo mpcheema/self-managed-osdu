@@ -7,10 +7,10 @@ metadata:
 spec:
   values:
     ingress:
-      dns: osdu-self-dplchfih-pljm-gw.southcentralus.cloudapp.azure.com
+      dns: osdu-self-dpldcaj-zco4-gw.southcentralus.cloudapp.azure.com
     configuration:
     - service: unit
-      repository: osduselfcplchf72s0cr.azurecr.io/unit
+      repository: osduselfcpldcaipascr.azurecr.io/unit
       path: /api/unit/*
       probe:
         path: /api/unit/_ah/readiness_check

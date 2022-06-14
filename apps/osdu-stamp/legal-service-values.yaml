@@ -7,10 +7,10 @@ metadata:
 spec:
   values:
     ingress:
-      dns: osdu-self-dplchfih-pljm-gw.southcentralus.cloudapp.azure.com
+      dns: osdu-self-dpldcaj-zco4-gw.southcentralus.cloudapp.azure.com
     configuration:
     - service: legal
-      repository: osduselfcplchf72s0cr.azurecr.io/legal
+      repository: osduselfcpldcaipascr.azurecr.io/legal
       path: /api/legal/v1/*
       probe:
         path: /actuator/health

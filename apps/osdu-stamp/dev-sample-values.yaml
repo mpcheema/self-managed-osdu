@@ -9,8 +9,8 @@ spec:
     azure:
       tenant: b7be7686-6f97-4db7-9081-a23cf09a96b5
       subscription: f726e0f9-96bc-4f6d-bb3d-ccf0ae64b662
-      resourcegroup: osdu-self-cplchfih-72s0-rg
-      identity: osdu-self-cplchfih-72s0-osdu-identity
-      identity_id: f6f478b0-68af-4cfc-a5c8-880dab979994
-      keyvault: osdu-self-cplchf-72s0-kv
+      resourcegroup: osdu-self-cpldcaj-ipas-rg
+      identity: osdu-self-cpldcaj-ipas-osdu-identity
+      identity_id: 1434edf7-9f93-4905-8a37-a16c34fb07fe
+      keyvault: osdu-self-cpldca-ipas-kv
       appid: e023491f-8d61-4f69-92d1-c01e3d5fb8a1
